@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section id="about" className="section-shell pt-10">
+    <section id="about" className="section-shell">
       <div className="section-wrap grid items-center gap-8 md:grid-cols-2 md:gap-12">
         <div className="fade-up surface-card p-3 hidden md:block">
           <img

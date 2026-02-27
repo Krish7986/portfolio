@@ -12,7 +12,7 @@ export default function Body() {
 
   return (
     <main>
-      <section id="home" className="section-shell relative min-h-screen overflow-hidden pt-35 lg:pt-32 md:flex flex-col">
+      <section id="home" className="section-shell relative overflow-hidden pt-35 lg:pt-32 md:flex flex-col">
         <p className="section-kicker mx-30 text-center text-3xl ">FULL STACK ENGINEER - AVAILBLE FOR HIRE</p>
         <div className="hero-glow pointer-events-none absolute -right-20 bottom-20 h-60 w-60 rounded-full bg-cyan-200/55 blur-3xl" />
           <h1 className="pointer-events-none absolute -left-20 top-32 hidden  md:block select-none font-extrabold tracking-wide text-slate-200 md:text-[130px] lg:text-[190px]">
@@ -56,7 +56,7 @@ export default function Body() {
           </div>
 
           <div className="fade-up delay-1 hidden md:block">
-            <div className="p-1">
+            <div className="p-1 relative -right-23 -top-10">
               <img
                 src="img1.png"
                 alt="Hari Krishna portrait"
