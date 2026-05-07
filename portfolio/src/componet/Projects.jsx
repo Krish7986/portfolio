@@ -49,7 +49,7 @@ const projects = [
     ],
     theme: "from-sky-400/30 to-indigo-400/30",
     liveUrl: "https://restarent-ui-7p3h.vercel.app/",
-    sourceUrl: "https://restarent-ui-7p3h.vercel.app/",
+    sourceUrl: "https://github.com/Krish7986/Restarent-UI",
   }
 ];
 
