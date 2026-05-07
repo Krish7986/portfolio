@@ -40,6 +40,17 @@ const projects = [
     liveUrl: "https://eventmanagementbyhari.vercel.app/",
     sourceUrl: "https://github.com/Krish7986/New-folder--2-.git",
   },
+  {
+    title: "Restaurent UI",
+    stack: ["React.js", "Tailwind CSS", "GitHub", "Vercel"],
+    highlights: [
+      "RestaurantPro - A modern, responsive restaurant landing page with online reservation form and smooth section-based navigation.",
+      "Built the frontend using React and Tailwind CSS, focusing on clean layout, typography, and reusable UI components.",
+    ],
+    theme: "from-sky-400/30 to-indigo-400/30",
+    liveUrl: "https://restarent-ui-7p3h.vercel.app/",
+    sourceUrl: "https://restarent-ui-7p3h.vercel.app/",
+  }
 ];
 
 export function Projects() {
@@ -95,7 +106,7 @@ export function Projects() {
                 </div>
 
                 <ul className="mt-5 space-y-2 text-sm text-slate-700">
-                  {project.highlights.map((point) => (
+                  {(project.highlights ?? []).map((point) => (
                     <li key={point} className="flex gap-2">
                       <span className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-slate-700" />
                       <span>{point}</span>
